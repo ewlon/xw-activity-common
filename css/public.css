@@ -283,6 +283,18 @@ body .border{
     text-indent: 0.5em;
     color: #666;
 }
+.popup-tst-box .login-lists1 li input {
+    display: block;
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, sans-serif;
+    text-indent: 0.5em;
+    color: #666;
+}
 .popup-tst-box .login-lists li.get-code {
     padding-right: 8em;
 }
