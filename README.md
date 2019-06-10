@@ -1,2 +1,2 @@
 # common
-xw-active-cli
+xw-active-template
