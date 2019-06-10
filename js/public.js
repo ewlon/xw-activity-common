@@ -23,9 +23,24 @@
             item.style.minHeight=winHeight + 'px';
         })
     }
+    
+    
+    function arrangePage(){
+	    var y;
+	    document.querySelectorAll('input,textarea').forEach(function (item) {
+		    item.addEventListener('focus',function(){
+			    y = window.scrollY;
+		    });
+		    item.addEventListener('blur',function(){
+			    window.scroll(0,y);
+		    });
+	    });
+
+    }
 
     document.addEventListener("DOMContentLoaded",function () {
-        setWrapperMinHeight()
+        setWrapperMinHeight();
+        arrangePage();
     });
     window.addEventListener("resize",function () {
         fontSize();
