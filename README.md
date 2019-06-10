@@ -1,2 +1,2 @@
-# wx-active-common
-xw-active-template  普通模板
+# wx-activity-common
+xw-activity-template  普通模板
