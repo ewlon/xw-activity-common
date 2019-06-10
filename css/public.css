@@ -216,7 +216,11 @@ body .border{
 .popup-container .popup-head img{
     width: 1.25rem;
 }
-
+.popup-body{
+    border-radius:.5rem;
+    -webkit-border-radius:.5rem;
+    overflow:hidden;
+}
 .popup-body .popup-title-box{
     padding: .5rem;
     text-align: center;
