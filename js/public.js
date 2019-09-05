@@ -19,8 +19,10 @@
         if (document.documentElement && document.documentElement.clientHeight) {
             winHeight = document.documentElement.clientHeight;
         }
-        document.querySelectorAll('body').forEach(function (item) {
-            item.style.minHeight=winHeight + 'px';
+        document.querySelectorAll('.wrapper').forEach(function (item) {
+            item.style.minHeight=winHeight-2 + 'px';
+	    item.style.paddingTop = '1px';
+	    item.style.paddingBottom = '1px';	
         })
     }
     
