@@ -79,7 +79,10 @@ body .wrapper{
     min-height: 100%;
     position: relative;
 }
-
+body .container{
+    margin-top:-1px;
+    margin-bottom:-1px;
+}
 
 body .table{display: table}
 body .td{display: table-cell}
