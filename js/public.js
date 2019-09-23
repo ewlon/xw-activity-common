@@ -20,7 +20,7 @@
             winHeight = document.documentElement.clientHeight;
         }
         document.querySelectorAll('.wrapper').forEach(function (item) {
-            item.style.minHeight=winHeight-2 + 'px';
+            item.style.minHeight=winHeight + 'px';
 	    item.style.paddingTop = '1px';
 	    item.style.paddingBottom = '1px';	
         })
