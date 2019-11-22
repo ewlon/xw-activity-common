@@ -116,6 +116,10 @@ body .flex{
     -ms-flex: 1;
     flex: 1;
 }
+.flex-column{
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
 body .clearfloat:after{
     content:'';
     display: block;
